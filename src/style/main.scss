@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Glegoo:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600&display=swap");
+
+$primary: #77ffe9;
+$border: #353535;
+
+@import "./mixins";
+@import "./reset";
+@import "./general";
+@import "./animate";
+
+@import "./navbar";
+@import "./showcase";
+@import "./portfolio";
+@import "./competences";
+@import "./about";
+@import "./contact";
+@import "./footer";

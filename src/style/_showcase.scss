@@ -1,0 +1,73 @@
+section.showcase {
+  height: 100vh;
+  width: 100%;
+  // background-image: linear-gradient(
+  //     to right,
+  //     rgba(0, 0, 0, 0.8),
+  //     rgba(0, 0, 0, 0.9)
+  //   ),
+  //   url("https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  // @include background();
+  background-color: transparent; // img {
+  //   position: absolute;
+  //   top: 50%;
+  //   left: 70%;
+  //   transform: translate(70%, -30%);
+  // }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Teko", sans-serif;
+  .inner-showcase {
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #353535;
+    box-shadow: 10px 10px 60px #353535, -10px -10px 60px #353535;
+
+    h1 {
+      font-size: 5.3rem;
+      text-transform: uppercase;
+      font-family: "Glegoo", sans-serif;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin-bottom: 25px;
+      font-size: 1.8rem;
+      font-weight: lighter;
+      letter-spacing: 0.2rem;
+    }
+
+    .showcase-btns {
+      display: flex;
+      justify-content: center;
+      button {
+        padding: 15px;
+        border: 3px solid $primary;
+        background-color: transparent;
+        color: white;
+        font-size: 1.3rem;
+        margin-left: 20px;
+        font-weight: lighter;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.4);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 696px) {
+  section.showcase {
+    height: 70vh;
+  }
+}
