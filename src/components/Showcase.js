@@ -14,7 +14,7 @@ const Showcase = () => {
           />
         <div className="showcase-btns">
           <button>Voir le portfolio</button>
-          <button>Me solliciter</button>
+          <button><a href="mailto:hawolyba@gmail.com">Me solliciter</a></button>
         </div>
       </div>
     </section>

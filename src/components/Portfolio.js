@@ -40,6 +40,7 @@ const Portfolio = () => {
               link={site.link}
               image={site.image}
               key={site.id}
+              technos={site.technos}
               openModal={openModal}
             />
           ))}

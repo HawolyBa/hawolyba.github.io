@@ -49,10 +49,8 @@ const About = () => {
           Après plus de trois ans derrière mon clavier de journaliste cinéma,
           j'ai décidé de changer de voie pour me lancer dans le développement
           web. 2017 est pour moi l'année de tous les changements. Je me suis
-          lancée dans la création de nombreux projets sans trop savoir où
-          j'allais avant d'intégrer une formation adaptée à mes besoins. Je suis
-          désormais prête à me lancer sur le marché de l'emploi et découvrir ce
-          métier qui me fait tant envie.
+          lancée dans la création de nombreux projets en autodidacte, mais c'est après avoir intégrée une formation adaptée à mes besoins que j'ai acquis une véritable expérience dans la création de sites internet.
+          En plus de mes nouvelles dans le développement web, je mets également à votre service mes capacités rédactionnelles. N'hésitez pas à me contacter pour plus d'informations à ce sujet.
         </p>
         <div className="studies">
           <h4>Diplômée de</h4>

@@ -2,7 +2,7 @@ import React from "react";
 import github from "../images/github-logo.png";
 import linkedin from "../images/linkedin-button.png";
 import codepen from "../images/codepen.png";
-import google from "../images/google-plus-logo-button.png";
+import instagram from "../images/instagram-logo.png";
 
 const Contact = () => {
   return (
@@ -28,17 +28,17 @@ const Contact = () => {
           </a>
           <a
             rel="noopener noreferrer"
-            href="https://www.codepen.io/Ravavamouna"
+            href="https://codepen.io/hawoly"
             target="_blank"
           >
             <img src={codepen} alt="codepen" />
           </a>
           <a
             rel="noopener noreferrer"
-            href="https://plus.google.com/+HawolyBa"
+            href="https://www.instagram.com/pixikraft/?hl=fr"
             target="_blank"
           >
-            <img src={google} alt="google" />
+            <img src={instagram} alt="google" />
           </a>
         </p>
       </div>

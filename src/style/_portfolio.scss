@@ -87,9 +87,10 @@
         width: 40%;
 
         .img-container {
+          margin-top: 15px;
           width: 100%;
           height: 480px;
-          border: 5px solid black;
+          box-shadow: 4px 5px 40px #b9b9b9;
         }
 
         img {
@@ -100,6 +101,45 @@
       }
       .right {
         width: 60%;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .modal-btn {
+          padding: 15px;
+          text-align: center;
+          background: #b9b9b9;
+          border: 3px solid white;
+          color: $primary;
+          cursor: pointer;
+          font-size: 0.9rem;
+          letter-spacing: 0.2rem;
+          box-shadow: 4px 5px 40px #b9b9b9;
+          margin-top: 25px;
+          font-weight: bolder;
+          transition: all 0.5s ease-in;
+
+          &:hover {
+            background: #cecece;
+          }
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+
+        h5 {
+          margin-bottom: 15px;
+        }
+        span.tag {
+          padding: 10px;
+          font-size: 0.6rem;
+          letter-spacing: 0.15rem;
+          background: $primary;
+          color: #272727;
+          margin-right: 10px;
+        }
       }
     }
   }

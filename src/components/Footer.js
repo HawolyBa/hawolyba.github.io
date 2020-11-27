@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
       </section>
       <footer>
-        <p>@2017 Hawoly Ba</p>
+        <p>@2020 Hawoly Ba</p>
       </footer>
     </Fragment>
   );

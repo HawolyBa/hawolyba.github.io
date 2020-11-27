@@ -27,6 +27,10 @@ section.showcase {
     border: 1px solid #353535;
     box-shadow: 10px 10px 60px #353535, -10px -10px 60px #353535;
 
+    a {
+      color: white;
+    }
+
     h1 {
       font-size: 5.3rem;
       text-transform: uppercase;
@@ -52,11 +56,12 @@ section.showcase {
         border: 3px solid $primary;
         background-color: transparent;
         color: white;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-left: 20px;
         font-weight: lighter;
         cursor: pointer;
         transition: all 0.2s ease-in;
+        letter-spacing: 0.15rem;
 
         &:hover {
           background-color: rgba(0, 0, 0, 0.4);
