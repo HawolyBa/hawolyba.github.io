@@ -73,6 +73,20 @@ section.showcase {
 
 @media (max-width: 696px) {
   section.showcase {
-    height: 70vh;
+    height: 100vh;
+
+    .inner-showcase {
+      h1 {
+        font-size: 3.2rem;
+      }
+
+      h2 {
+        font-size: 2.3rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
   }
 }

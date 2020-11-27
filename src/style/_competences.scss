@@ -89,9 +89,9 @@
 
 @media (max-width: 696px) {
   /* line 52, C:/Users/utilisateur/Desktop/Projets/Portfolio/assets/scss/layouts/_home-skills.sass */
-  #bars .bar {
-    width: 33%;
-  }
+  // #bars .bar {
+  //   width: 30%;
+  // }
   /* line 56, C:/Users/utilisateur/Desktop/Projets/Portfolio/assets/scss/layouts/_home-skills.sass */
   .skills .content .skill-boxes {
     margin-left: 30px;
@@ -99,6 +99,10 @@
   /* line 58, C:/Users/utilisateur/Desktop/Projets/Portfolio/assets/scss/layouts/_home-skills.sass */
   .skills .content .skill-boxes .skill {
     justify-content: center;
+  }
+
+  .skills .bar {
+    width: 100px;
   }
 }
 
@@ -187,9 +191,9 @@
 
 @media (max-width: 696px) {
   /* line 52, C:/Users/utilisateur/Desktop/Projets/Portfolio/assets/scss/layouts/_home-skills.sass */
-  #bars .bar {
-    width: 33%;
-  }
+  // #bars .bar {
+  //   width: 33%;
+  // }
   /* line 56, C:/Users/utilisateur/Desktop/Projets/Portfolio/assets/scss/layouts/_home-skills.sass */
   .skills .content .skill-boxes {
     margin-left: 30px;

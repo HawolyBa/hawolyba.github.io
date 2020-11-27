@@ -11,7 +11,7 @@
   }
 
   .figures {
-    width: 1040px;
+    max-width: 1040px;
     margin: auto;
     display: flex;
     flex-flow: row wrap;
@@ -172,6 +172,40 @@
 
     &:nth-child(5n) {
       margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 696px) {
+  .portfolio {
+    .figures {
+      figure {
+        margin-bottom: 0;
+
+        &:nth-child(5n) {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .modal-details {
+      padding: 20px;
+      .inner {
+        flex-direction: column;
+
+        .left,
+        .right {
+          width: 100%;
+        }
+
+        .left .img-container {
+          height: 300px;
+        }
+
+        .right {
+          padding: 20px 0;
+        }
+      }
     }
   }
 }
