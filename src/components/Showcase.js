@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from 'react-typical'
+import Typical from "react-typical";
 
 const Showcase = () => {
   return (
@@ -8,13 +8,20 @@ const Showcase = () => {
         <h1>Hawoly Ba</h1>
         <h2>Développeuse Web Freelance</h2>
         <Typical
-            steps={['Création de sites internet . Web Design . Rédaction de contenu', 1000]}
-            loop={Infinity}
-            wrapper="p"
-          />
+          steps={[
+            "Création de sites internet . Web Design . Rédaction de contenu",
+            1000,
+          ]}
+          loop={Infinity}
+          wrapper="p"
+        />
         <div className="showcase-btns">
-          <button>Voir le portfolio</button>
-          <button><a href="mailto:hawolyba@gmail.com">Me solliciter</a></button>
+          <button>
+            <a href="#portfolio">Voir le portfolio</a>
+          </button>
+          <button>
+            <a href="mailto:hawolyba@gmail.com">Me solliciter</a>
+          </button>
         </div>
       </div>
     </section>
