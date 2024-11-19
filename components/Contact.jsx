@@ -20,14 +20,14 @@ const Contact = () => {
         <div className="flex items-center gap-4 flex-col">
           <LinkedinOutlined style={{ color: '#14d9a2', fontSize: 38 }} />
           <p className="leading-none text-xs">Linkedin</p>
-          <a className="hover:text-teal-500" href="https://www.linkedin.com/in/hawoly-ba-21068449/">
+          <a target='_blank' className="hover:text-teal-500" href="https://www.linkedin.com/in/hawoly-ba-21068449/">
             <span>Mon profil</span>
           </a>
         </div>
         <div className="flex items-center gap-4 flex-col">
           <GithubOutlined style={{ color: '#14d9a2', fontSize: 38 }} />
           <p className="leading-none text-xs">Github</p>
-          <a className="hover:text-teal-500" href="https://github.com/HawolyBa">
+          <a target='_blank' className="hover:text-teal-500" href="https://github.com/HawolyBa">
             <span>Mon profil</span>
           </a>
         </div>
