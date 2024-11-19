@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins, Glegoo } from "next/font/google"
 import "./globals.css";
-import "animate.css/animate.compat.css"
 
 import Header from "../components/Header";
 

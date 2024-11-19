@@ -1,11 +1,5 @@
 
 import Link from 'next/link'
-import {
-  MessageOutlined,
-  ReadOutlined,
-  StrikethroughOutlined,
-  MailOutlined
-} from '@ant-design/icons';
 
 
 const Header = () => {
@@ -36,25 +30,25 @@ const Header = () => {
           <ul>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link href="#about">
-                <MessageOutlined style={{ color: '#14d9a2' }} />
+                {/* <MessageOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">À propos</span>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link href="#portfolio">
-                <ReadOutlined style={{ color: '#14d9a2' }} />
+                {/* <ReadOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">Portfolio</span>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link href="#skills">
-                <StrikethroughOutlined style={{ color: '#14d9a2' }} />
+                {/* <StrikethroughOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">Compétences</span>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link href="#contact">
-                <MailOutlined style={{ color: '#14d9a2' }} />
+                {/* <MailOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">Contact</span>
               </Link>
             </li>

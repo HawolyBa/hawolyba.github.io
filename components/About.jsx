@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from "next/image";
 import Link from "next/link";
-import { Tooltip } from 'antd';
 
 import allocine from "../images/allocine.jpg";
 import iicp from "../images/logo-iicp.png";
@@ -36,25 +35,25 @@ const About = () => {
               <h4>A travaillé chez: </h4>
               <ul className="flex mt-2 gap-2">
                 <li className="p-1 border border-emerald-800 rounded-full">
-                  <Tooltip title="Allociné">
-                    <div className="rounded-full overflow-hidden">
-                      <Image src={allocine} alt="allociné" width={50} height={50} />
-                    </div>
-                  </Tooltip>
+
+                  <div className="rounded-full overflow-hidden">
+                    <Image src={allocine} alt="allociné" width={50} height={50} />
+                  </div>
+
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full">
-                  <Tooltip title="L&apos;internaute">
-                    <div className="rounded-full overflow-hidden">
-                      <Image src={linternaute} alt="linternaute" width={50} height={50} />
-                    </div>
-                  </Tooltip>
+
+                  <div className="rounded-full overflow-hidden">
+                    <Image src={linternaute} alt="linternaute" width={50} height={50} />
+                  </div>
+
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full">
-                  <Tooltip title="Webedia">
-                    <div className="rounded-full overflow-hidden">
-                      <Image src={webedia} alt="webedia" width={50} height={50} />
-                    </div>
-                  </Tooltip>
+
+                  <div className="rounded-full overflow-hidden">
+                    <Image src={webedia} alt="webedia" width={50} height={50} />
+                  </div>
+
                 </li>
               </ul>
             </div>
@@ -62,25 +61,25 @@ const About = () => {
               <h4>Est diplômée de: </h4>
               <ul className="flex mt-2 gap-2">
                 <li className="p-1 border border-emerald-800 rounded-full flex justify-center items-center">
-                  <Tooltip title="Université de Versailles Saint-Quentin en Yvelines">
-                    <div className="rounded-full overflow-hidden">
-                      <Image src={uvsq} alt="uvsq" width={50} height={50} />
-                    </div>
-                  </Tooltip>
+
+                  <div className="rounded-full overflow-hidden">
+                    <Image src={uvsq} alt="uvsq" width={50} height={50} />
+                  </div>
+
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full flex justify-center items-center">
-                  <Tooltip title="Institut International de Communauté de Paris">
-                    <div className="rounded-full overflow-hidden">
-                      <Image src={iicp} alt="iicp" width={50} height={50} />
-                    </div>
-                  </Tooltip>
+
+                  <div className="rounded-full overflow-hidden">
+                    <Image src={iicp} alt="iicp" width={50} height={50} />
+                  </div>
+
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full flex justify-center items-center">
-                  <Tooltip title="IFOCOP">
-                    <div className="rounded-full overflow-hidden">
-                      <Image src={ifocop} alt="ifocop" width={50} height={50} />
-                    </div>
-                  </Tooltip>
+
+                  <div className="rounded-full overflow-hidden">
+                    <Image src={ifocop} alt="ifocop" width={50} height={50} />
+                  </div>
+
                 </li>
               </ul>
             </div>
