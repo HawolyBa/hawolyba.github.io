@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.5.1",
+    "animate.css": "^4.1.1",
+    "antd": "^5.22.1",
     "autoprefixer": "^10.4.20",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
+    "react-animate-on-scroll": "^2.1.9",
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
