@@ -1,6 +1,4 @@
-"use client";
 
-import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import {
   MessageOutlined,
@@ -11,19 +9,6 @@ import {
 
 
 const Header = () => {
-  const [show, handleShow] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        handleShow(true);
-      } else {
-        handleShow(false);
-      }
-    });
-
-    return () => window.removeEventListener("scroll");
-  }, []);
 
   return (
     <header className="top-0 left-0 fixed hidden lg:block">
