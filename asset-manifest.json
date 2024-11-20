@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61bab5ab.css",
+    "main.js": "/static/js/main.1e60d9d2.js",
+    "static/js/453.6f0b0303.chunk.js": "/static/js/453.6f0b0303.chunk.js",
+    "static/media/hdn.png": "/static/media/hdn.5151360e22648c1f6adf.png",
+    "static/media/netflix.png": "/static/media/netflix.f146ed50310d31884279.png",
+    "static/media/buyi.PNG": "/static/media/buyi.ab536646d0c8d2935e9a.PNG",
+    "static/media/amazon.png": "/static/media/amazon.778c929bf47987b883ac.png",
+    "static/media/teakup.PNG": "/static/media/teakup.1c554c0f84c9f006213c.PNG",
+    "static/media/kronikea.PNG": "/static/media/kronikea.77983986cf48fac7b08f.PNG",
+    "static/media/instagram.png": "/static/media/instagram.ba9edaaaac1da82602ae.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.1516b86be6256693760a.png",
+    "static/media/twitter.png": "/static/media/twitter.b52b9362b58d831d75b1.png",
+    "static/media/spotify.png": "/static/media/spotify.15fcc7e28492db006eba.png",
+    "static/media/ifocop.jpg": "/static/media/ifocop.4267190885bd4decb901.jpg",
+    "static/media/uvsq.png": "/static/media/uvsq.8f7485e882f0fd872f33.png",
+    "static/media/linternaute.jpg": "/static/media/linternaute.de0ff66c50e6fbe0876c.jpg",
+    "static/media/logo-iicp.png": "/static/media/logo-iicp.2b1072e051cf06eb23da.png",
+    "index.html": "/index.html",
+    "main.61bab5ab.css.map": "/static/css/main.61bab5ab.css.map",
+    "main.1e60d9d2.js.map": "/static/js/main.1e60d9d2.js.map",
+    "453.6f0b0303.chunk.js.map": "/static/js/453.6f0b0303.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61bab5ab.css",
+    "static/js/main.1e60d9d2.js"
+  ]
+}
