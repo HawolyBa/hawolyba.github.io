@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+import { IoChatbubblesOutline } from "react-icons/io5";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { AiOutlineStrikethrough } from "react-icons/ai";
+import { GoMail } from "react-icons/go";
 
 const Header = () => {
 
@@ -28,26 +32,34 @@ const Header = () => {
           <ul>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link to="#about">
-                {/* <MessageOutlined style={{ color: '#14d9a2' }} /> */}
-                <span className="ml-3 font-thin">À propos</span>
+                <div className="flex items-center">
+                  <IoChatbubblesOutline style={{ color: '#14d9a2', fontSize: 18 }} />
+                  <span className="ml-3 font-thin">À propos</span>
+                </div>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link to="#portfolio">
-                {/* <ReadOutlined style={{ color: '#14d9a2' }} /> */}
-                <span className="ml-3 font-thin">Portfolio</span>
+                <div className="flex items-center">
+                  <MdOutlineDesignServices style={{ color: '#14d9a2', fontSize: 18 }} />
+                  <span className="ml-3 font-thin">Portfolio</span>
+                </div>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link to="#skills">
-                {/* <StrikethroughOutlined style={{ color: '#14d9a2' }} /> */}
-                <span className="ml-3 font-thin">Compétences</span>
+                <div className="flex items-center">
+                  <AiOutlineStrikethrough style={{ color: '#14d9a2', fontSize: 18 }} />
+                  <span className="ml-3 font-thin">Compétences</span>
+                </div>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
               <Link to="#contact">
-                {/* <MailOutlined style={{ color: '#14d9a2' }} /> */}
-                <span className="ml-3 font-thin">Contact</span>
+                <div className="flex items-center">
+                  <GoMail style={{ color: '#14d9a2', fontSize: 18 }} />
+                  <span className="ml-3 font-thin">Contact</span>
+                </div>
               </Link>
             </li>
           </ul>
