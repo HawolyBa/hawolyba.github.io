@@ -1,12 +1,11 @@
 import React from 'react'
-import Image from 'next/image'
 
 const Card = ({ image, title, stack, link }) => {
   return (
-    <div className="group relative w-full max-w-sm mx-auto rounded-lg shadow-lg overflow-hidden min-w-[200px] shadow-sm bg-zinc-900 border border-emerald-900 p-2">
+    <div className="group relative w-full max-w-sm mx-auto rounded-lg  overflow-hidden min-w-[200px] shadow-sm bg-zinc-900 border border-emerald-900 p-2">
       {/* Image */}
       <div className="relative h-56">
-        <Image
+        <img
           src={image}
           alt={title}
           className="w-full h-full object-cover object-top transition-transform duration-300 group-hover:scale-105"

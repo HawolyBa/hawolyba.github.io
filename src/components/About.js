@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from "next/image";
-import Link from "next/link";
+import { Link } from 'react-router-dom';
 
 import allocine from "../images/allocine.jpg";
 import iicp from "../images/logo-iicp.png";
@@ -37,21 +36,21 @@ const About = () => {
                 <li className="p-1 border border-emerald-800 rounded-full">
 
                   <div className="rounded-full overflow-hidden">
-                    <Image src={allocine} alt="allociné" width={50} height={50} />
+                    <img src={allocine} alt="allociné" width={50} height={50} />
                   </div>
 
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full">
 
                   <div className="rounded-full overflow-hidden">
-                    <Image src={linternaute} alt="linternaute" width={50} height={50} />
+                    <img src={linternaute} alt="linternaute" width={50} height={50} />
                   </div>
 
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full">
 
                   <div className="rounded-full overflow-hidden">
-                    <Image src={webedia} alt="webedia" width={50} height={50} />
+                    <img src={webedia} alt="webedia" width={50} height={50} />
                   </div>
 
                 </li>
@@ -63,21 +62,21 @@ const About = () => {
                 <li className="p-1 border border-emerald-800 rounded-full flex justify-center items-center">
 
                   <div className="rounded-full overflow-hidden">
-                    <Image src={uvsq} alt="uvsq" width={50} height={50} />
+                    <img src={uvsq} alt="uvsq" width={50} height={50} />
                   </div>
 
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full flex justify-center items-center">
 
                   <div className="rounded-full overflow-hidden">
-                    <Image src={iicp} alt="iicp" width={50} height={50} />
+                    <img src={iicp} alt="iicp" width={50} height={50} />
                   </div>
 
                 </li>
                 <li className="p-1 border border-emerald-800 rounded-full flex justify-center items-center">
 
                   <div className="rounded-full overflow-hidden">
-                    <Image src={ifocop} alt="ifocop" width={50} height={50} />
+                    <img src={ifocop} alt="ifocop" width={50} height={50} />
                   </div>
 
                 </li>

@@ -1,6 +1,4 @@
-
-import Link from 'next/link'
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -29,25 +27,25 @@ const Header = () => {
         <div className="py-8 px-4 flex flex-col h-full">
           <ul>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
-              <Link href="#about">
+              <Link to="#about">
                 {/* <MessageOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">À propos</span>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
-              <Link href="#portfolio">
+              <Link to="#portfolio">
                 {/* <ReadOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">Portfolio</span>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
-              <Link href="#skills">
+              <Link to="#skills">
                 {/* <StrikethroughOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">Compétences</span>
               </Link>
             </li>
             <li className="p-4 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800">
-              <Link href="#contact">
+              <Link to="#contact">
                 {/* <MailOutlined style={{ color: '#14d9a2' }} /> */}
                 <span className="ml-3 font-thin">Contact</span>
               </Link>

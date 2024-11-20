@@ -7,12 +7,12 @@ import amazon from "../images/amazon.png";
 import instagram from "../images/instagram.png";
 import twitter from "../images/twitter.png";
 import hdn from "../images/hdn.png";
-import kronikea from '../images/kronikea.png';
+import kronikea from '../images/kronikea.PNG';
 import whatsapp from '../images/whatsapp.png';
 import netflix from '../images/netflix.png';
 import spotify from '../images/spotify.png';
-import teakup from '../images/teakup.png';
-import buyi from '../images/buyi.png';
+import teakup from '../images/teakup.PNG';
+import buyi from '../images/buyi.PNG';
 
 const Portfolio = () => {
   return (
