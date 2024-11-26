@@ -16,8 +16,8 @@ const Skills = () => {
     "React Native"
   ];
   return (
-    <div id="skills" className=" w-full ">
-      <div className="p-8 w-full  bg-black bg-opacity-90">
+    <div id="skills" className=" w-full">
+      <div className="p-8 w-full h-screen flex flex-col items-center justify-center bg-black bg-opacity-90">
         <h2 className="text-3xl text-center font-bold mb-6">Compétences</h2>
         <div className="flex flex-wrap justify-center gap-4 p-6  rounded-lg shadow-lg">
           {tags.map((tag, index) => (

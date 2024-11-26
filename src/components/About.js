@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 import allocine from "../images/allocine.jpg";
 import iicp from "../images/logo-iicp.png";
@@ -11,17 +10,18 @@ import webedia from "../images/webedia.jpg";
 const About = () => {
   return (
     <div id="about" className="min-h-screen w-full relative">
+
       <div className="z-10 absolute top-12 right-8">
-        <Link href='#contact'>
+        <a href='#contact'>
           <button className="border border-white rounded-lg p-4 cursor-pointer bg-transparent text-white hover:bg-emerald-300 hover:text-zinc-900 transition duration-300 ease-in-out transform hover:scale-105">
             Me solliciter
           </button>
-        </Link>
+        </a>
       </div>
       <div className="relative overflow-hidden bg-black bg-opacity-90 h-screen flex items-center justify-center">
 
         {/* Barre inclinée */}
-        <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-r from-emerald-400 via-emerald-500 to-emerald-600 transform skew-y-6" />
+        <div className="" />
 
         {/* Contenu de la première section */}
         <div className="relative z-10 text-center px-12">
@@ -85,7 +85,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
