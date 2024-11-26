@@ -9,9 +9,9 @@ import webedia from "../images/webedia.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="min-h-screen w-full relative">
+    <div id="about" className="min-h-screen w-full relative overflow-x-hidden">
 
-      <div className="z-10 absolute top-12 right-8">
+      <div className="z-10 absolute bottom-20 right-[50%] translate-x-2/4 lg:translate-x-1 lg:top-12 lg:right-8">
         <a href='#contact'>
           <button className="border border-white rounded-lg p-4 cursor-pointer bg-transparent text-white hover:bg-emerald-300 hover:text-zinc-900 transition duration-300 ease-in-out transform hover:scale-105">
             Me solliciter
