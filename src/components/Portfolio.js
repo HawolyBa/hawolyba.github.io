@@ -17,7 +17,7 @@ import buyi from '../images/buyi.PNG';
 const Portfolio = () => {
   return (
     <div className="relative overflow-hidden bg-[#141414]">
-      <div id="portfolio" className="relative min-h-screen p-8 mt-12">
+      <div id="portfolio" className="relative h-full md:min-h-screen p-8 mt-12">
         <h2 className="text-3xl font-bold mb-8 text-center">Portfolio</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-4">
           <Card image={kronikea} title={'Kronikea'} stack={'Stack: NextJs, Tailwind, Firebase'} link={'https://kronikea-1t90nlvsv-hawolyba.vercel.app/fr'} />

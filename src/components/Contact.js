@@ -5,9 +5,9 @@ import { FiGithub } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-[#141414] h-screen p-8 flex items-center flex-col justify-center">
+    <div id="contact" className="bg-[#141414] pt-32 md:pt-0 h-full md:min-h-screen p-8 flex items-center flex-col justify-center">
       <h2 className="text-3xl font-bold mb-8 text-center">Me contacter</h2>
-      <div className="flex items-center justify-center gap-24">
+      <div className="flex  flex-col md:flex-row items-center justify-center gap-24">
         <div className="flex items-center gap-4 flex-col">
           <GoMail style={{ color: '#14d9a2', fontSize: 38 }} />
           <p className="leading-none text-xs">Adresse email</p>

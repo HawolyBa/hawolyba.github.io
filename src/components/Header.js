@@ -66,9 +66,9 @@ const Header = ({ changePage }) => {
           </div>
         </div>
       </header>
-      <header className="block items-center lg:hidden absolute z-20 p-4 text-xs">
-        <ul className="flex flex-wrap gap-4">
-          <li onClick={() => changePage('about')} className="p-2 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
+      <header className="block items-center lg:hidden absolute z-20 p-4 text-xs bg-black bg-opacity-90 w-full">
+        <ul className="flex flex-wrap  gap-2">
+          <li onClick={() => changePage('about')} className="p-2 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
             <a href="#about" >
               <div className="flex items-center">
                 <IoChatbubblesOutline style={{ color: '#14d9a2', fontSize: 18 }} />
@@ -76,7 +76,7 @@ const Header = ({ changePage }) => {
               </div>
             </a>
           </li>
-          <li onClick={() => changePage('portfolio')} className="p-2 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
+          <li onClick={() => changePage('portfolio')} className="p-2 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
             <a href="#portfolio" >
               <div className="flex items-center">
                 <MdOutlineDesignServices style={{ color: '#14d9a2', fontSize: 18 }} />
@@ -84,7 +84,7 @@ const Header = ({ changePage }) => {
               </div>
             </a>
           </li>
-          <li onClick={() => changePage('skills')} className="p-2 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
+          <li onClick={() => changePage('skills')} className="p-2 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
             <a href="#skills" >
               <div className="flex items-center">
                 <AiOutlineStrikethrough style={{ color: '#14d9a2', fontSize: 18 }} />
@@ -92,7 +92,7 @@ const Header = ({ changePage }) => {
               </div>
             </a>
           </li>
-          <li onClick={() => changePage('contact')} className="p-2 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
+          <li onClick={() => changePage('contact')} className="p-2 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
             <a href="#contact">
               <div className="flex items-center">
                 <GoMail style={{ color: '#14d9a2', fontSize: 18 }} />
