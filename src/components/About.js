@@ -26,7 +26,7 @@ const About = () => {
         {/* Contenu de la première section */}
         <div className="relative z-10 text-center px-12">
           <h1 className="text-4xl font-bold text-teal-700">À propos de moi</h1>
-          <p className="mt-4 text-lg text-gray-400">
+          <p className="mt-4 text-sm md:text-lg text-gray-400">
             Après plus de trois ans derrière mon clavier de journaliste cinéma, j&apos;ai décidé de changer de voie pour me lancer dans le développement web. 2017 est pour moi l&apos;année de tous les changements. Je me suis lancée dans la création de nombreux projets en autodidacte, mais c&apos;est après avoir intégrée une formation adaptée à mes besoins que j&apos;ai acquis une véritable expérience dans la création de sites internet. En plus de mes nouvelles dans le développement web, je mets également à votre service mes capacités rédactionnelles. N&apos;hésitez pas à me contacter pour plus d&apos;informations à ce sujet.
           </p>
           <div className="mt-12 flex justify-center gap-24">

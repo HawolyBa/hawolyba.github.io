@@ -67,7 +67,7 @@ const Header = ({ changePage }) => {
         </div>
       </header>
       <header className="block items-center lg:hidden absolute z-20 p-4 text-xs">
-        <ul className="flex gap-4">
+        <ul className="flex flex-wrap gap-4">
           <li onClick={() => changePage('about')} className="p-2 mb-4 flex items-center justify-center rounded-lg shadow-2xl border-emerald-800 border transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:bg-emerald-300 hover:text-zinc-800 cursor-pointer">
             <a href="#about" >
               <div className="flex items-center">
