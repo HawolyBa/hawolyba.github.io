@@ -6,13 +6,14 @@ import ifocop from "../images/ifocop.jpg";
 import linternaute from "../images/linternaute.jpg";
 import uvsq from "../images/uvsq.png";
 import webedia from "../images/webedia.jpg";
+import cv from "../images/CV.pdf";
 
 const About = () => {
   return (
     <div id="about" className="h-full md:min-h-screen w-full relative overflow-x-hidden">
 
       <div className="z-10 invisible md:visible md:absolute bottom-10 right-[50%] translate-x-2/4 lg:translate-x-1 lg:top-12 lg:right-8">
-        <a href='#contact'>
+        <a href={cv}>
           <button className="border border-white rounded-lg p-4 cursor-pointer bg-transparent text-white hover:bg-emerald-300 hover:text-zinc-900 transition duration-300 ease-in-out transform hover:scale-105">
             Me solliciter
           </button>
